@@ -75,6 +75,7 @@ module.exports = ContinifyPlugin(
     ins.decorate('$ajv', ajv)
   },
   {
+    useDefaults: true,
     coerceTypes: true,
     allErrors: true,
     removeAdditional: true,
